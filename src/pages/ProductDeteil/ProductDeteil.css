@@ -1,0 +1,206 @@
+.ProductDetail {
+  width: 1420px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.ProductDetail > h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #ffffff;
+  margin: 45px 0;
+}
+
+.ProductDetail .image img {
+  border-radius: 10px;
+  height: 630px;
+  width: 650px;
+}
+
+
+.ProductDetail .images {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 60px;
+  color: white;
+}
+.ProductDetail .images .image2 {
+  width: 709px;
+  height: 645px;
+  background: #222222;
+  border-radius: 15px;
+  padding: 49px 31px;
+}
+.ProductDetail .images .money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.ProductDetail .images .money .price {
+  display: flex;
+  align-items: flex-end;
+
+}
+.ProductDetail .images .money .price img{
+    margin-bottom: 10px;
+    margin-left: 11px;
+}
+.ProductDetail .images .money h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.ProductDetail .images .money p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: line-through;
+  color: #b5b5b5;
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+.ProductDetail .images .money b {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #b5b5b5;
+}
+.ProductDetail .images .money b span{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.ProductDetail .cm h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9c9c9c;
+}
+.ProductDetail .cm .sm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+.ProductDetail .cm .sm b {
+  background: #f0f0f0;
+  border-radius: 15px;
+  width: 90px;
+  height: 44px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0;
+}
+.ProductDetail .minuspl h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9c9c9c;
+  margin-bottom: 20px;
+}
+.ProductDetail .minuspl .btns {
+  display: flex;
+  align-items: center;
+}
+.ProductDetail .minuspl .btns button {
+  width: 38px;
+  height: 38px;
+  background: #f0f0f0;
+  border-radius: 15px;
+  border: none;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+}
+.ProductDetail .minuspl .btns span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 10px;
+}
+.ProductDetail .images .image2 > button {
+  background: #ffd704;
+  border-radius: 5px;
+  width: 222px;
+  height: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 115.7%;
+  /* or 25px */
+  border: none;
+  color: #222222;
+  margin: 40px 0;
+
+  cursor: pointer;
+
+}
+.ProductDetail .images .image2 .descript {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ProductDetail .images .image2 .descript h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115.7%;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ProductDetail .images .image2 .descript h1 img {
+    margin-right: 15px;
+}
+.ProductDetail .images .image2 .cards {
+  width: 648px;
+  height: 103px;
+  background: #f0f0f0;
+  border-radius: 15px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 41px;
+}

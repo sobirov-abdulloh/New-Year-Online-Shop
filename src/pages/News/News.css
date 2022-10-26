@@ -1,0 +1,63 @@
+.novoste{
+    color: white;
+}
+.novoste .h1{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.volna{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 45px;
+    margin-bottom: 30px;
+}
+.volna_left{
+    background-image:url("../../assets/img/novos.png");
+    width: 60%;
+    height: 200px;
+    margin-right: 20px;
+}
+.volna_left h1{
+    margin-top: 65px;
+    margin-left: 35px;
+}
+.volna_left p{
+    margin-top: 10px;
+    margin-left:35px;
+}
+.volna_right span{
+    color: gray;
+}
+.volna_right .p{
+    display: inline-block;
+    font-size: 1.6rem;
+}
+.volna_right{
+    width: 40%;
+    height: 200px;
+}
+.volna_right p{
+    font-size: 1.15rem;
+}
+.News_dolor{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 100%;
+    padding-left:60px;
+    padding-top: 50px;
+}
+.dolor{
+    width: 320px;
+  margin-bottom: 75px;
+}
+.dolor img{
+    width: 320px;
+    height: 170px;
+}
+.dolor h1{
+    margin: 20px 0;
+    font-size: 1.5rem;
+}

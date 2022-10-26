@@ -1,0 +1,11 @@
+aside{
+    color: white;
+   padding-top:30px;
+    padding-left: 60px;
+}
+aside .select_1 input {
+margin-right: 15px;
+}
+aside .select_2 input {
+margin-right: 15px;
+}

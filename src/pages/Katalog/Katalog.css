@@ -1,0 +1,10 @@
+.PAGE_CATOLIG{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.sale_list{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding-right: 25px;
+}
